@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Top Songs</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'mainPage.css') }}"
+    />
+  </head>
+  <body>
+    <div id = "MainDiv">
+      <button id = "Home" class = "submit">Home ←</button>
+    </div>
+    <div id="Heading">
+      <h2 class="typed-out">Top Artists</h2>
+    </div>
+    <div id = "buttonHeader">
+      <button id="Top-4Weeks" class="submit">Top 4-Week</button>
+      <button id="Top-6Months" class="submit">Top 6-Month</button>
+      <button id="AllTime" class="submit">Top All-Time</button>
+    </div>
+    <div id = "FillArtists">
+
+    </div>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename = 'artists.js')}}"
+    ></script>
+  </body>
+</html>
