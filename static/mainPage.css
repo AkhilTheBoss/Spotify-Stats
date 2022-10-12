@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  animation-name: backGroundColorBruh; /*name of the animation: we can give it any name*/
+  animation-duration: 10s; /*Timing to switch between each color*/
+  animation-iteration-count: infinite; /*The colors will switch infinitely*/
+  animation-direction: alternate; /*All colors will switch in order, from beginning to end and from end to beginning*/
+  /* animation: bgcolor infinite 20s; */
+}
+
+#buttonHeader {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: row;
+  /* margin: 0 auto; */
+  justify-content: center;
+  gap: 12px; /*This creates a gap between the flex items*/
+}
+
+#CurrentSongs{
+  margin-top: 140px;
+  display: flex;
+  flex-direction: row;
+  /* margin: 0 auto; */
+  justify-content: center;
+  gap: 12px; /*This creates a gap between the flex items*/
+  font-size: 30px;
+}
+
+#MainDiv{
+  margin: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit {
+  width: 100px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+@keyframes backGroundColorBruh {
+  0% {
+    background: #cd84f1;
+  }
+  20% {
+    background: #ff4d4d;
+  }
+  40% {
+    background: #ffaf40;
+  }
+  60% {
+    background: #fff200;
+  }
+  80% {
+    background: #32ff7e;
+  }
+  100% {
+    background: #17c0eb;
+  }
+}
+
+#Main {
+  margin-top: 80px;
+}
+
+#FillSongs{
+  margin-left: 400px;
+  font-size: 30px;
+  /* text-align: center; */
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+#FillArtists{
+  margin-left: 400px;
+  font-size: 30px;
+  /* text-align: center; */
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+#Heading{
+  font-size: 30px;
+  text-align: center;
+}
