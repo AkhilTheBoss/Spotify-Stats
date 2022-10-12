@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Main Page</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'mainPage.css') }}"
+    />
+  </head>
+  <body>
+    <div id="Heading">
+      <h2 id = "Main">Main Page</h2>
+    </div>
+    <div id = "buttonHeader">
+      <button id="Songssubmit" class="submit">Top Songs</button>
+      <button id="Artistssubmit" class="submit">Top Artists</button>
+      <button id="Currentsubmit" class="submit">Current Song</button>
+    </div>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename = 'mainPage.js')}}"
+    ></script>
+  </body>
+</html>

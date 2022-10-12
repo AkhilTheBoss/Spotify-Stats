@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Current Songs</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'mainPage.css') }}"
+    />
+  </head>
+  <body>
+    <div id = "MainDiv">
+      <button id = "Home" class = "submit">Home ←</button>
+    </div>
+    <div id="Heading">
+      <h2 class="typed-out">Recently Played</h2>
+    </div>
+    <div id = "CurrentSongs">
+
+    </div>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename = 'currentSongs.js')}}"
+    ></script>
+  </body>
+</html>
