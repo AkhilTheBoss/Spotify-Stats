@@ -5,8 +5,8 @@ import spotipy
 import requests
 
 
-os.environ['SPOTIPY_CLIENT_ID'] = "cc22de52a6e6408bbe5ba1a491f1d1cf"
-os.environ['SPOTIPY_CLIENT_SECRET'] = "e4b858fd5b97468f9d2acd90bef8b5fb"
+os.environ['SPOTIPY_CLIENT_ID'] = "XXXXXXXXXXXXXXXXXXX"
+os.environ['SPOTIPY_CLIENT_SECRET'] = "XXXXXXXXXXXXXXXXXX"
 os.environ['SPOTIPY_REDIRECT_URI'] = 'http://localhost:8888/callback'
 
 spotify_client_id = os.environ['SPOTIPY_CLIENT_ID']
